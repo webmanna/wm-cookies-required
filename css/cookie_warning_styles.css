@@ -1,0 +1,29 @@
+.cookie_warning {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 1.5em;
+	background: #003768;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.35);
+	z-index: 99999;
+	text-align: center;
+	color: #fff;
+}
+.cookie_warning a {
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	background: #7DAF3B;
+	padding: 0.5em 0.75em;
+	margin: 0 10px;
+	border-radius: 3px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+	-o-transition: background 0.5s ease-in;
+	-webkit-transition: background 0.25s ease-in;
+	-moz-transition: background 0.25s ease-in;
+}
